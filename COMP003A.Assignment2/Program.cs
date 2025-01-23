@@ -29,15 +29,15 @@
 
            
             int ageFuture = age + 5;
-            bool ageAdult = age >= 60;
+
             double price = itemPrice * .9;
-           
+            double seniorPrice = itemPrice * .8;
 
             Console.WriteLine($"\n Hello {firstName} {lastName}! ");
             Console.WriteLine($" In 5 years, you will be {ageFuture}" );
             Console.WriteLine($"The original price of the item is {itemPrice.ToString("f2")}");
             Console.WriteLine($"As a Student, your discounted price is {price.ToString ("f2")}");
-
+            Console.WriteLine($"As a senior citizen, your discount price would be {seniorPrice.ToString("f2")}");
 
         }
     }
